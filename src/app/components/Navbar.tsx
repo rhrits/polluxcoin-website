@@ -109,7 +109,7 @@ export default function Navbar() {
 
   const handleMouseEnter = useCallback(
     (index: number) => {
-      clearTimeout();
+     // clearTimeout();
       setHoveredIndex(index);
       setOpenDropdownIndex(index);
     },
