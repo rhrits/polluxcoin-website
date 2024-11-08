@@ -263,7 +263,18 @@ export default function Navbar() {
         </NavigationMenu>
 
         {/* Right: Get $POLLUX Button */}
-        <Button variant="primary">Get $POLLUX</Button>
+        {/* <Button variant="primary">Get $POLLUX</Button> */}
+
+        <Button
+  variant="primary"
+  className="bg-[#8af969] text-black hover:shadow-[0_0_10px_#8af969] hover:bg-[#8af969] hover:text-black transition-all duration-300"
+>
+  Get $POLLUX
+</Button>
+
+
+    
+
       </div>
     </nav>
   );
