@@ -49,8 +49,8 @@ export default function Navbar() {
       dropdown: [
         "Validator App",
         "Nominator App",
-        "5ire Explorer",
-        "5ire Staking",
+        "Pollux Explorer",
+        "Pollux Staking",
       ],
     },
     {
