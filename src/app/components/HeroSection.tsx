@@ -1,6 +1,6 @@
 'use client';
 
-import Typewriter from '../utils/typewriter';
+
 import { TypewriterEffect } from './ui/Typewriter-effect';
 
 
