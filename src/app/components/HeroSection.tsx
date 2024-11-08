@@ -1,7 +1,9 @@
 'use client';
 
 import Typewriter from '../utils/typewriter';
-import { TypewriterEffect } from './ui/typewriter-effect';
+import { TypewriterEffect } from './ui/Typewriter-effect';
+
+
 
 export default function HeroSection() {
   const words = [
