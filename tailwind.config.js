@@ -1,12 +1,3 @@
-// module.exports = {
-//   content: ['./src/**/*.{js,ts,jsx,tsx}'],
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [],
-// };
-
-
 const svgToDataUri = require("mini-svg-data-uri");
 const {
   default: flattenColorPalette,
@@ -16,11 +7,19 @@ module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
-      boxShadow: {
-        'glow': '0 0 10px 5px #ff',
+      colors: {
+        background: 'hsl(var(--sidebar-background))',
+        foreground: 'hsl(var(--sidebar-foreground))',
+        primary: 'hsl(var(--sidebar-primary))',
+        'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
+        accent: 'hsl(var(--sidebar-accent))',
+        'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
+        border: 'hsl(var(--sidebar-border))',
+        ring: 'hsl(var(--sidebar-ring))',
       },
-
-
+      boxShadow: {
+        glow: '0 0 10px 5px #ff',
+      },
     },
   },
   plugins: [
